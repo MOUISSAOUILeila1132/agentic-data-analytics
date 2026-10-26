@@ -1,0 +1,17 @@
+Table `data` : 2015 lignes. Colonnes :
+- "order_id" (BIGINT), 0 valeurs manquantes
+- "date" (VARCHAR), 0 valeurs manquantes
+- "region" (VARCHAR), 61 valeurs manquantes ; valeurs possibles : 'Bizerte', 'Nabeul', 'Sfax', 'Sousse', 'Tunis'
+- "produit" (VARCHAR), 0 valeurs manquantes ; valeurs possibles : 'Bureau', 'Cahier', 'Chaise', 'Classeur', 'Clavier', 'Ecran', 'Lampe', 'Laptop', 'Souris', 'Stylo'
+- "categorie" (VARCHAR), 0 valeurs manquantes ; valeurs possibles : 'Informatique', 'Mobilier', 'Papeterie'
+- "quantite" (BIGINT), 0 valeurs manquantes
+- "prix_unitaire" (DOUBLE), 0 valeurs manquantes
+- "remise" (DOUBLE), 509 valeurs manquantes
+- "montant" (DOUBLE), 0 valeurs manquantes
+- "canal" (VARCHAR), 0 valeurs manquantes ; valeurs possibles : 'En ligne', 'Magasin'
+- "client_id" (BIGINT), 0 valeurs manquantes
+- "devise" (VARCHAR), 0 valeurs manquantes ; valeurs possibles : 'TND'
+Exemples de lignes :
+  order_id=1, date=2025-02-02, region=Tunis, produit=Lampe, categorie=Mobilier, quantite=6, prix_unitaire=40.47, remise=0.1, montant=218.54, canal=En ligne, client_id=160, devise=TND
+  order_id=2, date=2025-10-10, region=Sfax, produit=Stylo, categorie=Papeterie, quantite=7, prix_unitaire=2.16, remise=0.1, montant=13.61, canal=Magasin, client_id=297, devise=TND
+  order_id=3, date=2025-08-27, region=Tunis, produit=Lampe, categorie=Mobilier, quantite=3, prix_unitaire=38.22, remise=0.0, montant=114.66, canal=Magasin, client_id=36, devise=TND

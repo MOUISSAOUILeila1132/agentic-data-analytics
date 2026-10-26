@@ -1,0 +1,35 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	build_context(build_context)
+	plan(plan)
+	execute(execute)
+	verify(verify)
+	explain(explain)
+	check_answer(check_answer)
+	finish_plain(finish_plain)
+	finish_answer(finish_answer)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> build_context;
+	build_context --> plan;
+	check_answer -.-> explain;
+	check_answer -.-> finish_answer;
+	execute -.-> finish_plain;
+	execute -.-> plan;
+	execute -.-> verify;
+	explain --> check_answer;
+	plan -.-> execute;
+	plan -.-> finish_plain;
+	verify -.-> explain;
+	verify -.-> finish_plain;
+	verify -.-> plan;
+	finish_answer --> __end__;
+	finish_plain --> __end__;
+	plan -.-> plan;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc
