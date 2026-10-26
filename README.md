@@ -166,7 +166,7 @@ Exposed tools:
 
 | Role | Model / Engine |
 |---|---|
-| Agent reasoning & NL → SQL | LLM served via **Ollama**: model `<MODEL_NAME>` *(configurable in `.env`)* |
+| Agent reasoning & NL → SQL | LLM served via **Ollama**: model **llama3.1:8b** |
 | Analytical execution | **DuckDB** (columnar SQL engine) |
 | Orchestration | **LangGraph** (agent state graph) |
 
