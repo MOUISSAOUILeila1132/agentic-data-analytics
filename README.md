@@ -277,8 +277,6 @@ The MCP server includes a smoke test and a `/health/mcp` health endpoint.
 
 **Leila Mouissaoui**
 Data & AI Engineer, ESPRIT Monastir
-
-- GitHub: [github.com/MOUISSAOUILeila1132](https://github.com/MOUISSAOUILeila1132)
 - LinkedIn: [linkedin.com/in/mouissaouilaila](https://linkedin.com/in/mouissaouilaila)
 
 ---
